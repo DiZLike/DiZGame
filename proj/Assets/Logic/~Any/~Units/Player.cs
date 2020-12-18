@@ -27,6 +27,7 @@ public class Player : Unit
     new void Start()
     {
         base.Start();
+        LockCursor();
         cam = GetComponentInChildren<Camera>();
 
         var s = GetComponentsInChildren<AudioSource>();

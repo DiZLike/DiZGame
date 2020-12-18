@@ -49,7 +49,7 @@ public class Door1 : Block
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "CosmoBot")
         {
             started = true;
             sound.clip = Open;
@@ -58,7 +58,7 @@ public class Door1 : Block
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "CosmoBot")
         {
             started = false;
             sound.clip = Close;

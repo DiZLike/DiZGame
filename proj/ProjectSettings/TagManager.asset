@@ -6,9 +6,8 @@ TagManager:
   tags:
   - Platform
   - Door
-  - Sun
-  - Planet
   - Enemy
+  - CosmoBot
   layers:
   - Default
   - TransparentFX
@@ -23,7 +22,7 @@ TagManager:
   - Radar
   - Weapon
   - Triggers
-  - 
+  - Player
   - 
   - 
   - 
