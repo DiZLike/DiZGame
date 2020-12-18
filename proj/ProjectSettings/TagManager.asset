@@ -8,6 +8,7 @@ TagManager:
   - Door
   - Sun
   - Planet
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Walls
   - Radar
   - Weapon
-  - 
+  - Triggers
   - 
   - 
   - 

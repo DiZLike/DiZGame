@@ -27,7 +27,8 @@ public class Unit : Any
                 stepSound = item;
         }
 
-        stepSound.clip = Step1;
+        if (Step1 != null)
+            stepSound.clip = Step1;
 
         stepTimer = new Timer(0.5f, true, StepProc);
     }

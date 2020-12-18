@@ -16,11 +16,17 @@ public class Player : Unit
     private Animator animWea;
     private GameObject bullet;
     private LineRenderer laser;
+    public LayerMask WeaponLayerMask;
+
+    void LockCursor()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 
     new void Start()
     {
         base.Start();
-        Cursor.visible = false;
         cam = GetComponentInChildren<Camera>();
 
         var s = GetComponentsInChildren<AudioSource>();
@@ -128,7 +134,7 @@ public class Player : Unit
         Vector3 rayOrigin = cam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
         laser.SetPosition(0, weaObj.bulletStart.position);
-        if (Physics.Raycast(rayOrigin, cam.transform.forward, out hit, 100))
+        if (Physics.Raycast(rayOrigin, cam.transform.forward, out hit, 100, WeaponLayerMask))
         {
             laser.SetPosition(1, hit.point);
             var ha = hit.collider.gameObject.GetComponentsInChildren<AudioSource>();
