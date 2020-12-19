@@ -3928,12 +3928,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 817813309}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &259480801 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d3c87fa7ae5c6e24d8e74b138aefab38,
-    type: 3}
-  m_PrefabInstance: {fileID: 817813309}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &259480802
 Animator:
   serializedVersion: 3
@@ -3980,8 +3974,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.259824, y: 9.173341, z: 2.0962348}
-  m_Center: {x: 0.044612885, y: 4.6366696, z: -0.54811716}
+  m_Size: {x: 3.259824, y: 9.173341, z: 2.2949471}
+  m_Center: {x: 0.044612885, y: 4.6366696, z: -0.05343119}
 --- !u!114 &259480805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10114,50 +10108,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9bac82bddeb3724f8db3be9f7175648, type: 3}
---- !u!1 &734001974
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 734001975}
-  - component: {fileID: 734001976}
-  m_Layer: 12
-  m_Name: Sight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &734001975
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734001974}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 5.62, z: 0}
-  m_LocalScale: {x: 6.666666, y: 6.666666, z: 6.666666}
-  m_Children: []
-  m_Father: {fileID: 259480801}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &734001976
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734001974}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 6.366341}
-  m_Center: {x: 0, y: 0, z: -3.2143652}
 --- !u!4 &736414862 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7807735744530377100, guid: edaa2f551a28c55429859d9ee618baab,
