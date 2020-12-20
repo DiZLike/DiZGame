@@ -81,29 +81,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11300}
+      Script: {instanceID: 11302}
     - Class: 114
-      Script: {instanceID: 11570}
+      Script: {instanceID: 11580}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11854}
     - Class: 114
-      Script: {instanceID: 12162}
+      Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 12166}
+      Script: {instanceID: 12186}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12198}
     - Class: 114
-      Script: {instanceID: 12250}
+      Script: {instanceID: 12270}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 12694}
     - Class: 114
-      Script: {instanceID: 12756}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 13072}
+      Script: {instanceID: 13082}
     - Class: 114
-      Script: {instanceID: 16206}
+      Script: {instanceID: 13098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -173,6 +173,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CosmoBot
+  - hash:
+      serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -355,6 +367,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -485,6 +503,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -653,31 +677,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2b19be13f00df62e6d4d4f5539bcad51
-    assemblyName: NavMeshComponents.dll
-    namespaceName: UnityEngine.AI
-    className: NavMeshModifier
-  - hash:
-      serializedVersion: 2
-      Hash: c8c672fee8a258266e51b55a210b8083
-    assemblyName: NavMeshComponents.dll
-    namespaceName: UnityEngine.AI
-    className: NavMeshLink
-  - hash:
-      serializedVersion: 2
-      Hash: 7299a528424874bcf6b5736b5305ac37
-    assemblyName: NavMeshComponents.dll
-    namespaceName: UnityEngine.AI
-    className: NavMeshModifierVolume
-  - hash:
-      serializedVersion: 2
-      Hash: 8d4458b476a9a4dd8df843a849fcfffa
-    assemblyName: NavMeshComponents.dll
-    namespaceName: UnityEngine.AI
-    className: NavMeshSurface
   platform: 5
   scenePathNames:
   - Assets/Scenes/Land/SampleScene.unity
-  playerPath: C:/Users/Evgeny/Desktop/build/proj.exe
+  playerPath: C:/Users/Evgeny/Desktop/tmp/proj.exe
